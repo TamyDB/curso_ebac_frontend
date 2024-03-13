@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fefae0;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    padding: 48px;
+}
+
+.container {
+    width: 640px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.list {
+    font-family: "Madimi One", sans-serif;
+    font-size: 20px;
+    padding: 32px;
+    width: 100%;
+    overflow: auto;
+}
+
+.list td {
+    /* vertical-align: top; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+.list tr {
+    border: 2px solid #000;
+    border-radius: 5px;
+} 
+
+.completed {
+    text-decoration: line-through;
+}
+
+#title {
+    padding: 18px;
+    font-size: 40px;
+    font-family: "Madimi One", sans-serif;
+}   
+
+#form, #button {
+    padding: 16px;
+}
+
+#form input,
+button {
+    font-family: "Madimi One", sans-serif;
+}
+
+#button #submit,
+#hide {
+    cursor: pointer;
+}           
+
+#note {
+    border-radius: 8px;
+    width: 220px;
+    height: 25px;
+}
+
+#button {
+    padding-left: 50px;
+}
